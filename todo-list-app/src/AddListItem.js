@@ -12,11 +12,18 @@ function AddListItem(props) {
 
         props.addTodo(text);
         setText("");
+        document.querySelector("#inputTextarea").style.height = "50px";
     };
+
+    const handleKeyDown = (e) => {
+        if (e.key == "Enter") {
+            handleClick();
+        }
+    }
 
     return (
         <div className="addItem">
-            <input type="text" onChange={handleChange} value={text} placeholder='Enter text here...'/>
+            <textarea id="inputTextarea" type="text" onChange={handleChange} value={text} placeholder='Enter text here...' onKeyDown={handleKeyDown}/>
             <button onClick={handleClick}>Add Todo</button>
         </div>
     )

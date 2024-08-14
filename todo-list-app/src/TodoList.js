@@ -7,8 +7,10 @@ function TodoList(props) {
         {props.todos.map((todo) => 
             <Todo 
                 id={todo.id} 
+                key={todo.id}
                 text={todo.text} 
                 deleteTodo={props.deleteTodo}
+                updateTodo={props.updateTodo}
             />)
         }
     </div>
