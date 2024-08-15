@@ -6,16 +6,12 @@
 This is a simple React app that allows users to track their Todo's. They can add new Todo's, edit, and remove them.
 <br>
 
-<p align="center>
-    <img src="https://raw.githubusercontent.com/umarraj008/Todo-List-App/main/todo-list-app/public/screenshot.png" alt="screenshot"/>
-</p>
-<p align="center">Todo App</p>
+#### Todo App Screenshot
+![Screenshot](https://raw.githubusercontent.com/umarraj008/Todo-List-App/main/todo-list-app/public/screenshot.png)
 <br>
 
-<p align="center>
-    <img src="https://raw.githubusercontent.com/umarraj008/Todo-List-App/main/todo-list-app/public/screenshot2.png" alt="screenshot" />
-</p>
-<p align="center">Editing a Todo</p>
+#### Editing a Todo
+![Screenshot](https://raw.githubusercontent.com/umarraj008/Todo-List-App/main/todo-list-app/public/screenshot2.png)
 
 ## Built With
 
