@@ -33,7 +33,7 @@ function Todo(props) {
                     <span className="material-symbols-outlined">edit</span>
                 </button> 
                     :
-                <button onClick={acceptEdit}>
+                <button onClick={acceptEdit} className="check">
                     <span className="material-symbols-outlined">check</span>
                 </button> 
             }
